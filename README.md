@@ -144,7 +144,6 @@ To wire in a real LLM: replace `MockLlmBackend` with an Anthropic/OpenAI client 
 
 ## What's Missing / Future Work
 
-- **Outbox pattern**: currently events are published after persist; if the broker is down, events are lost. An outbox table + polling publisher would give at-least-once delivery.
 - **Authentication**: `requestedBy` / `actingUser` are passed in the request body. In production these come from a JWT claim.
 - **Approver RBAC**: `ApproverService` uses a hardcoded set. Real implementation: Spring Security + DB/LDAP.
 - **Real LLM backend**: `MockLlmBackend` → Anthropic or OpenAI client with tool_use parsing.
