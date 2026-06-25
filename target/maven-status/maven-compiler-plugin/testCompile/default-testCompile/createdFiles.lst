@@ -1,0 +1,9 @@
+com/releasepilot/domain/PromotionAggregateTest$Cancellation.class
+com/releasepilot/domain/EnvironmentTest.class
+com/releasepilot/domain/PromotionAggregateTest$Approval.class
+com/releasepilot/domain/PromotionAggregateTest.class
+com/releasepilot/domain/PromotionAggregateTest$DeploymentLifecycle.class
+com/releasepilot/domain/PromotionAggregateTest$RequestPromotion.class
+com/releasepilot/integration/PromotionIntegrationTest.class
+com/releasepilot/agent/ReleaseNotesAgentTest.class
+com/releasepilot/domain/PromotionAggregateTest$TerminalImmutability.class
